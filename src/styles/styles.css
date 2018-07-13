@@ -1,0 +1,46 @@
+#title {
+    text-align: center;
+    font-style: italic;
+}
+
+#cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 15px 0;
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 200px;
+}
+
+#editFormContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 15px 0;
+}
+
+#editInputContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 200px;
+}

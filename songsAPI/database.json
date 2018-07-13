@@ -1,0 +1,79 @@
+{
+  "songs": [
+    {
+      "song": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californiacation",
+      "id": 1
+    },
+    {
+      "song": "Heathen",
+      "artist": "Bob Marley",
+      "album": "Exodus",
+      "id": 3,
+      "purchased": "true"
+    },
+    {
+      "song": "Passionfruit",
+      "artist": "Drake",
+      "album": "Passion",
+      "id": 5,
+      "purchased": "true"
+    },
+    {
+      "song": "Let It Be",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "id": 6
+    },
+    {
+      "song": "Dani California",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "id": 7
+    },
+    {
+      "song": "Feel Good Inc.",
+      "artist": "Gorillaz",
+      "album": "Demon Days",
+      "id": 9
+    },
+    {
+      "song": "Daily Routine",
+      "artist": "Animal Collective",
+      "album": "Merriweather Post Pavillion",
+      "id": 10,
+      "purchased": "true"
+    },
+    {
+      "song": "Closer to the Sun",
+      "artist": "Slightly Stoopid",
+      "album": "Closer to the Sun",
+      "id": 11
+    },
+    {
+      "song": "The Longest Wave",
+      "artist": "Red Hot Chili Peppers",
+      "album": "The Getaway",
+      "id": 12
+    },
+    {
+      "song": "Them Changes",
+      "artist": "Thundercat",
+      "album": "Drunk",
+      "id": 13
+    },
+    {
+      "song": "It Wasn't Me",
+      "artist": "Shaggy",
+      "album": "Hot Shot",
+      "id": 14
+    },
+    {
+      "song": "Wu-Tang Forever",
+      "artist": "Drake",
+      "album": "Nothing Was the Same",
+      "id": 15
+    }
+  ]
+}
