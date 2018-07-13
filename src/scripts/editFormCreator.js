@@ -6,6 +6,8 @@ const EditFormCreator = Object.create({}, {
     createEditForm: {
         value: (id, editName, editArtist, editAlbum) => {
             const editFormContainer = document.querySelector("#editFormContainer");
+            editFormContainer.id = id;
+            editFormContainer.setAttribute("classList", "disableEditForm")
 
             let editInputContainer = document.createElement("div");
             editInputContainer.id = "editInputContainer";

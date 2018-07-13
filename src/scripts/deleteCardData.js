@@ -13,10 +13,12 @@ const DeleteCardData = Object.create({}, {
     },
     deleteSongFromEditForm: {
         value: () => {
-            JSONMethods.getSongs()
+            let editDeleteBtnParentId = event.target.parentNode.id;
+
+            JSONMethods.getSongs(editDeleteBtnParentId)
                 .then(data => {
                     data.forEach(i => {
-                        if (i.id === 2) { // need to figure this out!!!!
+                        if (i.id === +editDeleteBtnParentId) {
                             JSONMethods.deleteSongs(i.id)
                             .then(deleted => {
                                 console.log(deleted);
